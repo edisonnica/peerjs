@@ -1,10 +1,35 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
+All notable changes will be documented in this file.
+
+## vNEXT
+
+<a name="1.3.1"></a>
+
+- fixed: map file resolving
+- removed: @types/webrtc because it contains in ts dom lib.
+
+## 1.3.1 (2020-07-11)
+
+<a name="1.3.0"></a>
+
+## 1.3.0 (2020-07-03)
+
+- changed: don't close the Connection if `iceConnectionState` changed to `disconnected`
+
+<a name="1.2.0"></a>
+
+## 1.2.0 (2019-12-24)
+
+- added: ability to change json stringify / json parse methods for DataConnection #592
+
+- removed: `peerBrowser` field from `dataConnection` because unused
+
+- fixed: lastServerId and reconnect #580 #534 #265
 
 <a name="1.1.0"></a>
 
-## 1.1.0 (vNEXT)
+## 1.1.0 (2019-09-16)
 
 - removed: deprecated `RtpDataChannels` and `DtlsSrtpKeyAgreement` options
 - removed: grunt from deps, upgrade deps versions
